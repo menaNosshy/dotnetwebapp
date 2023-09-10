@@ -27,6 +27,6 @@ node('Dotnetcore')
 
     stage('Archive')
     {
-        archiveArtifacts artifacts: 'dotnetwebapp/*.*'
+        archiveArtifacts artifacts: 'wwwroot/*.*'
     }
 }
